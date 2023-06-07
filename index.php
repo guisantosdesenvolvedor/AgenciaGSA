@@ -9,6 +9,9 @@
 </head>
 <body>
     <?php include 'header.php'?>
+    <br><br><br><br>
+    <?php include 'apresentacao.php'?>
+    <?php include 'footer.php'?>
 </body>
 <script src="js/script.js"></script>
 </html>
