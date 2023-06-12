@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans&family=Poppins:wght@100;400&family=Ysabeau&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Open+Sans&family=Poppins:wght@100;400&family=Roboto+Slab&family=Ysabeau&display=swap');
 
 *{
     margin: 0;
@@ -153,19 +154,25 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: 'Roboto Slab', serif;
+
 }
 .direita-apresentacao .modal-apr{
     margin: 50px;
-    width: 500px;
-    height: 500px;
-    background: #eee;
+    width: 450px;
+    height: 450px;
+    background: #ffffff;
     border-radius: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-form{
+.direita-apresentacao .modal-apr .form-apr h1{
+    padding: 0px 50px;
+}
+
+.direita-apresentacao .modal-apr form{
     width: 100%;
     max-width: 350px;
     padding: 2%;
@@ -190,7 +197,7 @@ form{
     border: 0;
     border-bottom: 2px solid #ffffff;
     outline: 0;
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(80,80,80);
     transition: 0.5s ease-in-out;
 }
@@ -202,9 +209,72 @@ form{
 .input:focus ~ label,
 .input:valid ~ label{
     transform: translateY(-24px);
-    font-size: 12px;
+    font-size: 20px;
     color: cornflowerblue;
 }
+
+.direita-apresentacao .modal-apr form button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #004AAD;        
+}
+@media (max-width: 1200px) {
+    .container-apresentacao{
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    
+.divisoes-apresentacao{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.direita-apresentacao .modal-apr{
+    margin: 50px;
+    width: 90%;
+    height: 450px;
+    background: #ffffff;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media (max-width: 580px) {
+    .divisoes-apresentacao .esquerda-apresentacao h1{
+        font-size: 50px;       
+        margin: 10px;
+    }
+    .divisoes-apresentacao .esquerda-apresentacao h4{
+        font-size: 20px;       
+        margin: 10px;
+    
+    }
+    .direita-apresentacao .modal-apr{
+        display: flex;
+        justify-content: center;
+        margin: 10px auto;
+    }
+}
+@media (max-width: 580px) {
+
+    .direita-apresentacao{
+        font-size: 15px;
+    }
+}
+
+/*Fim apresentação*/
 
 /*foooter */
 

@@ -10,6 +10,7 @@
 <body>
     <?php include 'header.php'?>
     <?php include 'apresentacao.php'?>
+    <?php include 'produtos.php'?>
     <?php include 'footer.php'?>
 </body>
 <script src="js/script.js"></script>
