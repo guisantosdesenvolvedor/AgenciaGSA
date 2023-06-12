@@ -213,6 +213,12 @@ header{
     color: cornflowerblue;
 }
 
+.input:focus ~ label,
+.input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 20px;
+    color: cornflowerblue;
+}
 .direita-apresentacao .modal-apr form button{
     width: 100%;
     margin-top: 10px;
