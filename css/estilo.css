@@ -276,6 +276,68 @@ header{
 
 /*Fim apresentação*/
 
+/*Produtoo*/
+
+.container-produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+}
+
+.container-produto .titulo-produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px;
+    text-transform: uppercase;
+
+}
+
+.modals-produtos{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.modal-produto{
+    background-color: #003d8d;
+    width: 350px;
+    height: 420px;
+    border-radius: 5%;
+}
+
+.modal-produto .conteudo-modal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.modal-produto .conteudo-modal a h2{
+   display: flex;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+    color: white;
+}
+.modal-produto .conteudo-modal a img{
+   display: block;
+   margin: 35px 0px;
+   width: 100px;
+   height: 100px;
+}
+.modal-produto .conteudo-modal h3{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/*fim produto*/
+
 /*foooter */
 
 
